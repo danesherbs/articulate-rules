@@ -38,4 +38,4 @@ The list of valid task, rule and attack combinations are defined in the Articula
 
 # Customiziation
 
-We've provided a file `generate-eval.py` which allows you to create custom variants of our eval to e.g. increase the number of few-shot examples. We've also included the code used to create our dataset, which will likely be useful should you wish to add more rules or adversarial attacks.
+We've provided two scripts, `scripts/create-eval.py` and `scripts/create-eval-spec.py`, which allow you to create custom variants of our eval in the format of an OpenAI eval. This may be useful if you wish to increase the number of few-shot examples, for example. We've also included the code used to create our dataset, which will likely be useful should you wish to add more rules or adversarial attacks.
