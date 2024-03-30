@@ -11,9 +11,9 @@ More details can be found in our paper: [Can Language Models Explain Their Own C
 
 # Setup
 
-To run our eval, please first follow the installation instructions at [openai/evals](https://github.com/openai/evals).
+To run our eval, please clone the OpenAI evals [repo](https://github.com/openai/evals) and follow the installation instructions.
 
-Once installed, you can run the in-distribution variant of the tasks from within the OpenAI evals repo with:
+Within the OpenAI evals repo, you can run the in-distribution variant of Articulate Rules with:
 
 ```bash
 oaieval <model> articulate-rules.<task>.in-distribution.<rule>
@@ -23,7 +23,7 @@ where:
 - `task` is either one of `classification` or `articulation`
 - `rule` is a valid rule (e.g. `contains_a_digit`)
 
-Similarly, all out-of-distribution variants can be run with:
+Similarly, the out-of-distribution variants can be run with:
 
 ```bash
 oaieval <model> articulate-rules.<task>.out-of-distribution.<rule>.<attack>
