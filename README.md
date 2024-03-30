@@ -5,7 +5,7 @@ This eval measures an LLMs ability to articulate the classification rule it's us
 | Task       | Description                                                                                         |
 |----------------|-----------------------------------------------------------------------------------------------------|
 | Classification | The model is prompted to solve a simple text-based classification problem given few-shot examples. |
-| Articulation   | Similar to the classification task, but the model is prompted to articulate the classification rule being used.              |
+| Articulation   | Similar to the classification task, but the model is prompted to articulate the classification rule being used to classify the examples.              |
 
 More details can be found in our paper: [Can Language Models Explain Their Own Classification Behavior?](www.broken-link.com)
 
