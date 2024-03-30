@@ -1,0 +1,12 @@
+jupyter
+matplotlib
+plotly
+pandas
+python-dotenv
+transformers
+openai==0.28.1
+backoff
+tiktoken
+wandb
+diskcache
+typeguard
