@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this work in your research, please cite it as follows."
+title: "Can Language Models Explain Their Own Classification Behavior?"
+type: article
+version: 1.0.0
+date-released: 2024-03-30
+
+authors:
+  - family-names: "Sherburn"
+    given-names: "Dane"
+  - family-names: "Chughtai"
+    given-names: "Bilal"
+  - family-names: "Evans"
+    given-names: "Owain"
+
+keywords:
+  - "Language Models"
+  - "Explainability"
+  - "Artificial Intelligence"
+  - "Machine Learning"
+
+license: "https://opensource.org/licenses/MIT"
+repository: "https://github.com/danesherbs/articulate-rules"
