@@ -32,7 +32,7 @@ oaieval <model> articulate-rules.<task>.out-of-distribution.<rule>.<attack>
 where:
 - `task` is either one of `classification` or `articulation`
 - `rule` is a valid rule (e.g. `contains_a_digit`)
-- `attack` is a valid attack (e.g. `SynonymAttackBehaviour`)
+- `attack` is a valid adversarial attack (e.g. `SynonymAttackBehaviour`)
 
 The list of valid task, rule and attack combinations are defined in the Articulate Rules [yaml file](https://github.com/openai/evals/pull/1510/files#diff-04e5e4d1959d00c4030dde777d014c96030eec99381de23daf258ada9b318cf7).
 
